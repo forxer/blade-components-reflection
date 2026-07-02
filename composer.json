@@ -1,0 +1,49 @@
+{
+    "name": "forxer/blade-components-reflection",
+    "description": "Runtime reflection utilities for class-based Blade components (settable attributes & constructor parameters).",
+    "homepage": "https://github.com/forxer/blade-components-reflection",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "blade",
+        "component",
+        "reflection"
+    ],
+    "authors": [
+        {
+            "name": "Vincent Garnier",
+            "email": "forxer@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/forxer/blade-components-reflection/issues",
+        "source": "https://github.com/forxer/blade-components-reflection"
+    },
+    "require": {
+        "php": "^8.4",
+        "illuminate/support": "^12.0 || ^13.0",
+        "illuminate/view": "^12.0 || ^13.0"
+    },
+    "require-dev": {
+        "driftingly/rector-laravel": "^2.5.0",
+        "laravel/pint": "^1.29.3",
+        "pestphp/pest": "^3",
+        "rector/rector": "^2.5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Forxer\\BladeComponentsReflection\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Forxer\\BladeComponentsReflection\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
