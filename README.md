@@ -9,10 +9,9 @@ attributes a Blade tag can set on it:
 - `AttributeReflector::constructorParameters($class)` — every constructor parameter, with a `required`
   flag.
 
-It is a small, provider-less library (no service provider, no config). Consumers that hydrate public
-properties from the Blade attribute bag at render time use it directly; the companion dev tool
-[`forxer/blade-components-ide-helper`](https://packagist.org/packages/forxer/blade-components-ide-helper)
-uses the same class to generate IDE metadata.
+It is a small, provider-less library (no service provider, no config), for consumers that hydrate
+public properties from the Blade attribute bag at render time, such as
+[`forxer/blade-ui-kit-bootstrap`](https://packagist.org/packages/forxer/blade-ui-kit-bootstrap).
 
 ## Installation
 
